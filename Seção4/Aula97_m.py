@@ -1,1 +1,4 @@
-print(f'Esse modulo chama-se {__name__}')
+variavel_modulo = 'Pedro Henrique'
+
+def soma(x, y):
+    return x + y
