@@ -13,4 +13,4 @@ print(cliente1)
 cliente2 = adiciona_clientes('Luciane')
 adiciona_clientes('Lucinda', cliente2)
 print(cliente2)
-#usa a mesam lista sempre
+#usa a mesma lista sempre
