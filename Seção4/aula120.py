@@ -14,15 +14,17 @@
 # print(isinstance(string, str))
 
 class Pessoa:
-    pass
+    def __init__(self, nome, sobrenome):
+        self.nome = nome
+        self.sobrenome = sobrenome
 
-p1 = Pessoa()
-p1.nome = 'Pedro'
-p1.sobrenome = 'Albuquerque'
+p1 = Pessoa('Pedro', 'Henrique')
+# p1.nome = 'Pedro'
+# p1.sobrenome = 'Albuquerque'
 
-p2 = Pessoa()
-p2.nome = 'Luisa'
-p2.sobrenome = 'Carreiro'
+p2 = Pessoa('Luisa', 'Carreiro')
+# p2.nome = 'Luisa'
+# p2.sobrenome = 'Carreiro'
 
 print(p1.nome)
 print(p1.sobrenome)
