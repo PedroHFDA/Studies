@@ -46,3 +46,9 @@ motor_v8 = Motor ('V8')
 jesko.fabricante = koenigsegg
 jesko.motor = motor_v8
 print(jesko.nome, jesko.fabricante.nome, jesko.motor.nome)
+
+gtr = Carro('GTR')
+nissan = Fabricante('nissan')
+gtr.fabricante = nissan
+gtr.motor = motor_3_0
+print(gtr.nome, gtr.fabricante.nome, gtr.motor.nome)
