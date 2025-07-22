@@ -9,7 +9,6 @@ def lista_grande(n):
 def ordena(lista):
     tamanho_lista = len(lista)
 
-
     for i in range(tamanho_lista - 1):
         menor_valor = i
 
